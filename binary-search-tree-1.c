@@ -31,6 +31,7 @@ int main()
     do {
         printf("\n\n");
         printf("----------------------------------------------------------------\n");
+		printf("--------[    [Park younghyeon]        [2021041019]    ]---------\n");
         printf("                   Binary Search Tree #1                        \n");
         printf("----------------------------------------------------------------\n");
         printf(" Initialize BST       = z                                       \n");
@@ -246,6 +247,5 @@ int freeBST(Node* head) // free all memories allocated to the tree (freeBst 함�
 
     free(head);	//해당 노드를 해제
     return 1;
-
 	//결과적으로 freeBST 함수를 호출하면 루트노드를 기준으로 모든 노드를 해제하게 된다.
 }
